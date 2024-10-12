@@ -1,4 +1,4 @@
-# ChatGPTTradingBot :star:
+# AI High-Frequency News Trading Bot :star:
 This is my ChatGPT Trading bot, a Node.js project that uses the Alpaca Trade API for trading activities. When a live news event is released via Benzinga News, it will Immediatly send the important data from the article to a prompted GPT 4.0o and recieves a sentiment analysius response on if the event will have a positive or negative effect on the company stock on a scale from 0-100, 0=worst news, 100=best news. Based on that logic it will BUY/SELL, SHORT/COVER a certain amount of the stock that scales based on funds in the account and if margin trading is turned on. 
 
 ## Additional Features:
